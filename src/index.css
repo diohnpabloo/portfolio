@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+  --default-font-family: 'Roboto', sans-serif;
+
+  --color-gray-background: #090e16;
+  --color-purply-100: #7B4AE2;
+
+  --color-white-100: #ffffff;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
