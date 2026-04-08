@@ -3,7 +3,6 @@ import { TagTitle } from '../components/TagTitle'
 import { ProjectCard } from '../components/ProjectCard'
 
 import portfolio from '../assets/portfolio.png'
-import portifolio from '../assets/my-portifolio.png'
 import trucks from '../assets/trucks-front.png'
 
 export function WorkSection() {

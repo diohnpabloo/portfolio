@@ -1,4 +1,3 @@
-import { FaRocket } from 'react-icons/fa6'
 import { Card } from '../components/Card'
 import { FiCode, FiUser, FiServer, FiSettings, FiCheckCircle, FiTrendingUp } from 'react-icons/fi'
 import { TagTitle } from '../components/TagTitle'
