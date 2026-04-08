@@ -1,11 +1,12 @@
 @import 'tailwindcss';
 
 @theme {
-  --default-font-family: 'Roboto', sans-serif;
+  --default-font-family: 'Inter', sans-serif;
+  --font-tag: 'JetBrains Mono', sans-serif;
+  --font-system: system-ui, sans-serif;
 
-  --color-gray-background: #090e16;
-  --color-purply-100: #7B4AE2;
-
+  --color-gray-background: #030712;
+  --color-primary: #2563EB;
   --color-white-100: #ffffff;
 
 }

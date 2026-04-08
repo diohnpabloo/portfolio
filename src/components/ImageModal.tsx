@@ -24,7 +24,7 @@ export function ImageModal({ imageUrl, title, description, onClose }: ImageModal
                     />
                 )}
                 <div className="flex flex-col p-4">
-                    {title && <h2 className="text-xl font-semibold text-purply-100 mb-2">{title}</h2>}
+                    {title && <h2 className="text-xl font-semibold text-primary mb-2">{title}</h2>}
                     {description && <p className="text-gray-500 whitespace-pre-line">{description}</p>}
                 </div>
 
