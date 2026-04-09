@@ -51,6 +51,7 @@ const TECHNOLOGY_ICON_NAME_MAP: Record<string, keyof typeof Si> = {
   html5: 'SiHtml5',
   css3: 'SiCss3',
   github: 'SiGithub',
+  sqlite: 'SiSqlite',
 }
 
 function normalizeTechName(tech: string) {

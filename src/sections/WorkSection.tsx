@@ -13,24 +13,28 @@ export function WorkSection() {
       title: 'Controle de frota',
       description:
         'Projeto para controle de frota de caminhões, é possível cadastrar e listar caminhões, cadastrar e listar viagens específicas para cada caminhão com local de destino e quilometragem final.',
-      stack: ['React', 'TypeScript', 'Tailwind CSS'],
+      stack: ['Node.js', 'TypeScript', 'Sqlite', 'Vite'],
       image: trucks,
+      githubUrl: 'https://github.com/diohnpabloo/trucks-api.git',
     },
     {
       title: 'Meu portfólio',
       description: 'Projeto criado para mostrar meu trabalho ao longo da minha carreira.',
-      stack: ['React', 'TypeScript', 'Tailwind CSS', "Node.js", "PostgreSQL", "Next.js", "Vite", "Docker"],
+      stack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
       image: portfolio,
+      githubUrl: 'https://github.com/diohnpabloo/portfolio.git',
     },
   ]
   const visibleProjects = showAll ? projects : projects.slice(0, 8)
 
   return (
     <section id="projetos">
-      <div className='max-w-7xl mx-auto w-full py-24 px-8 grid grid-cols-1 gap-8'>
+      <div className="max-w-7xl mx-auto w-full py-24 px-8 grid grid-cols-1 gap-8">
         <TagTitle>Portfólio</TagTitle>
 
-        <h2 className="text-3xl font-bold text-white tracking-tight italic">Trabalhos e projetos</h2>
+        <h2 className="text-3xl font-bold text-white tracking-tight italic">
+          Trabalhos e projetos
+        </h2>
         <div
           className="flex md:flex-wrap overflow-x-auto snap-x snap-mandatory gap-4 scrollbar-hide md:snap-none md:grid md:grid-cols-4 md:overflow-x-visible"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}

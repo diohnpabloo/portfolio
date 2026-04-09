@@ -1,4 +1,5 @@
 import foto from '../assets/foto.jpeg'
+import curriculo from '../assets/curriculo.pdf'
 
 import { TagTitle } from '../components/TagTitle'
 import { Button } from '../components/Button'
@@ -40,7 +41,7 @@ export function HeaderSection() {
         </div>
 
         <div className="flex gap-2 mt-4 md:mt-0 md:col-start-3 md:justify-end">
-          <a href="https://diohnpablodev.com/assets/curriculo.pdf" download="curriculo.pdf">
+          <a href={curriculo} download="curriculo.pdf">
             <Button iconLeft={<FaDownload/>}>Baixar CV</Button>
           </a>
           <Button
