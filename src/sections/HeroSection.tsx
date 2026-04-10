@@ -10,7 +10,7 @@ import { MobileHeader } from '../components/MobileHeader'
 
 import { handleOpenWhatsApp } from '../utils/whatsapp'
 
-export function HeaderSection() {
+export function HeroSection() {
   const isMobile = useIsMobile()
 
   return (

@@ -2,7 +2,7 @@ import { Footer } from "../components/Footer"
 import { AboutSection } from "../sections/AboutSection"
 import { ContactSection } from "../sections/ContactSection"
 import { ServiceSection } from "../sections/ServiceSection"
-import { HeaderSection } from "../sections/HeaderSection"
+import { HeroSection } from "../sections/HeroSection"
 import { TechSection } from "../sections/TechSection"
 import { WorkSection } from "../sections/WorkSection"
 import { Header } from "../components/Header"
@@ -13,7 +13,7 @@ export function Home() {
         <>
             <main className="bg-gray-background flex flex-col pb-24 gap-15">
                 <Header />
-                <HeaderSection />
+                <HeroSection />
                 <AboutSection />
                 <ServiceSection />
                 <WorkSection />
