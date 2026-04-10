@@ -19,7 +19,7 @@ export function HeroSection() {
         <div className="flex flex-col gap-2 md:col-start-1">
           <div>
             <TagTitle>Saudações!</TagTitle>
-            <p className="text-white text-3xl font-semibold">Olá, eu nome é</p>
+            <p className="text-white text-3xl font-semibold">Olá, meu nome é</p>
           </div>
 
           <p className="text-primary text-6xl font-bold">Diohn Pablo</p>
