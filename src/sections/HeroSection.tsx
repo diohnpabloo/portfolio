@@ -42,7 +42,7 @@ export function HeroSection() {
 
         <div className="flex gap-2 mt-4 md:mt-0 md:col-start-3 md:justify-end">
           <a href={curriculo} download="curriculo.pdf">
-            <Button iconLeft={<FaDownload/>}>Baixar CV</Button>
+            <Button iconLeft={<FaDownload/>}>Baixar currículo</Button>
           </a>
           <Button
             iconLeft={<FaWhatsapp />}
